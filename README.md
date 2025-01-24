@@ -388,3 +388,15 @@ int main(int argc, char* argv[]) {
 sudo apt update
 sudo apt install libpcap-dev
 ```
+# 실행 예시
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c3677699-221e-4815-8d4e-4b443d63f94c/21c176aa-a712-4dde-8c27-a59b31eeb171/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c3677699-221e-4815-8d4e-4b443d63f94c/f81f2b4b-8c0f-45fc-a759-2f8363efd141/image.png)
+
+# 피드백
+
+- `attribute` 는 C 표준 X. 리눅스 전용이므로 `pragma pack(push, 1)` 사용
+- 배열 로 돌면 n(O) 이므로 map 활용
+- + 12, +2 이런 부분은 코드 보기 편하게 sizeof(fixed)나 매크로 활용
+- 네트워크 카운트 overflow 체크
