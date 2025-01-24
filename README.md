@@ -389,10 +389,9 @@ sudo apt update
 sudo apt install libpcap-dev
 ```
 # 실행 예시
+![image](https://github.com/user-attachments/assets/44f042bd-ff4f-46b2-93f6-023983a6f6c5)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c3677699-221e-4815-8d4e-4b443d63f94c/21c176aa-a712-4dde-8c27-a59b31eeb171/image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c3677699-221e-4815-8d4e-4b443d63f94c/f81f2b4b-8c0f-45fc-a759-2f8363efd141/image.png)
 
 # 피드백
 
